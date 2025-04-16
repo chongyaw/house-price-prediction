@@ -2,6 +2,8 @@
 # 2025-04-16 02:35 PM     Resized visuals
 # 2025-04-16 02:40 PM     Modified test size to 20% (To test git branching)
 
+# This is a comment added for branch01
+
 # Predicting House Prices with Linear Regression
 
 # Command to run:
