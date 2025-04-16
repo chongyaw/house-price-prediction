@@ -1,5 +1,6 @@
 # Change log:
-# 2025-04-16 02:35 PM Resized visuals
+# 2025-04-16 02:35 PM     Resized visuals
+# 2025-04-16 02:40 PM     Modified test size to 20% (To test git branching)
 
 # Predicting House Prices with Linear Regression
 
@@ -29,7 +30,7 @@ y = df['Price'] # Dependent variable
 
 # Linear regression
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 model = LinearRegression()
 model.fit(X_train, y_train)
