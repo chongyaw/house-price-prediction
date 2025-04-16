@@ -1,3 +1,6 @@
+# Change log:
+# 2025-04-16 02:35 PM Resized visuals
+
 # Predicting House Prices with Linear Regression
 
 # Command to run:
@@ -37,7 +40,7 @@ print("Model score:", model.score(X_test, y_test))
 
 print("Generating sample visualizations as PNG files...")
 
-plt.figure(figsize=(20,12))
+plt.figure(figsize=(30,18))
 sns.scatterplot(x=df['Rooms'], y=df['Price'])
 plt.title("Rooms vs Price")
 plt.xlabel("Rooms")
@@ -45,7 +48,7 @@ plt.ylabel("Price")
 plt.grid(True,"major","both")
 plt.savefig('rooms_vs_price.png')
 
-plt.figure(figsize=(20,12))
+plt.figure(figsize=(30,18))
 sns.scatterplot(x=df['BuildingArea'], y=df['Price'])
 plt.title("Building Area vs Price")
 plt.xlabel("Building Area")
